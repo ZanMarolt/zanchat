@@ -1,0 +1,25 @@
+.messages-container {
+  padding: 5px 15px;
+  display: flex;
+  width: 100%;
+}
+
+.messages-userName {
+  margin-right: 10px;
+}
+.my-message, .message {
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+
+.messages-container .my-message {
+  border-bottom-right-radius: 0px;
+  background-color: #ffd400;
+  // color: white;
+  margin-left: auto;
+}
+
+.messages-container .message {
+  border-bottom-left-radius: 0px;
+  background-color: #ebebeb;
+}

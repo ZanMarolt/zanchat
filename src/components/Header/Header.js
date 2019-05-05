@@ -65,7 +65,7 @@ const MessagesList = ({connections}) => (
     <g>
     </g>
     </svg>
-      <span>{connections}</span>
+      <span id="num-clients">{connections}</span>
     </div>
   </div>
 )

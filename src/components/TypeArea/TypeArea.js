@@ -24,10 +24,12 @@ class TypeArea extends PureComponent {
     return (
       <div className="container">
         <input
+          id="message"
           className="area"
           onKeyUp={this.handleKeyPress}
           ref="typeArea" />
         <button
+          id="send"
           onClick={this.handleButtonPress}
         >
           Send

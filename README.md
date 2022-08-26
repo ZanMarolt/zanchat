@@ -2,7 +2,7 @@
 
 A simple example using socket.io, react and redux.
 
-see [demo](https://zan-chat.herokuapp.com/),
+see [demo](https://zan-chat.onrender.com/),
 see [test case repo](https://github.com/ZanMarolt/pupeteer-testing)
 
 ## Installation

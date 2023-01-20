@@ -9,7 +9,7 @@ import Header from './components/Header/Header.js';
 import { WithRedux, initStore } from './Ducks';
 import { Provider } from 'react-redux';
 
-const SOCKET_PORT = 'https://zan-chat.herokuapp.com/';
+const SOCKET_PORT = 'https://zan-chat.onrender.com/';
 const store = initStore();
 
 class App extends Component {
